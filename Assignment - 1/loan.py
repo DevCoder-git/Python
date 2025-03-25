@@ -1,0 +1,5 @@
+p=int(input("Enter the principal : "))
+n=int(input("Enter the time in years : "))
+r=float(input("Enter the rate of interest : "))
+emi=(p*r*pow(1+r,n))/(pow(1+r,n)-1)
+print("The EMI is : ",emi)
